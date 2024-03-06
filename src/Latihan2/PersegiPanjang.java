@@ -2,22 +2,22 @@ package Latihan2;
 import java.util.Scanner;
 public class PersegiPanjang {
     // Atribut kelas
-    private double panjang; // Menyimpan nilai panjang persegi panjang
-    private double lebar; // Menyimpan nilai lebar persegi panjang
+    private int panjang; // Menyimpan nilai panjang persegi panjang
+    private int lebar; // Menyimpan nilai lebar persegi panjang
 
     // Constructor untuk inisialisasi panjang dan lebar
-    public PersegiPanjang(double panjang, double lebar) {
+    public PersegiPanjang(int panjang, int lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
     }
 
     // Fungsi untuk menghitung luas
-    public double hitungLuas() {
+    public int hitungLuas() {
         return panjang * lebar;
     }
 
     // Fungsi untuk menghitung keliling
-    public double hitungKeliling() {
+    public int hitungKeliling() {
         return 2 * (panjang + lebar);
     }
 
@@ -34,9 +34,9 @@ public class PersegiPanjang {
 
         // Meminta input dari pengguna untuk panjang dan lebar
         System.out.print("Panjang: ");
-        double panjang = scanner.nextDouble();
+        int panjang = scanner.nextInt();
         System.out.print("Lebar: ");
-        double lebar = scanner.nextDouble();
+        int lebar = scanner.nextInt();
 
         // Membuat objek PersegiPanjang
         PersegiPanjang persegiPanjang = new PersegiPanjang(panjang, lebar);
