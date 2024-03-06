@@ -7,7 +7,7 @@ public class Student {
 
     // Konstruktor untuk kelas Student
     public Student() {
-        // Kosong
+        // dikosongkan
     }
 
     // Metode untuk mengatur NRP (Nomor Registrasi Mahasiswa)

@@ -55,7 +55,7 @@ public class LingkaranMain {
         l2 = null;
         l3 = null;
 
-       //latihan
+       //latihan lingkaran
 
             System.out.println(l1.getJari2()); //5
             System.out.println(l2.getJari2()); //5
